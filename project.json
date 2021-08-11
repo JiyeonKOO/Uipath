@@ -1,0 +1,78 @@
+{
+  "name": "KE2423002_종합통제_APP업무자동화",
+  "description": "KE2423002_종합통제_APP업무자동화",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Google.Apis": "[1.49.0]",
+    "Google.Apis.Calendar.v3": "[1.43.0.1872]",
+    "Google.Apis.Core": "[1.49.0]",
+    "Google.Apis.Gmail.v1": "[1.43.0.1859]",
+    "KoreanAir.ERP": "[1.0.5]",
+    "KoreanAir.KALis": "[1.0.9]",
+    "Microsoft.Activities": "[1.0.1]",
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath": "[20.10.7641.24102]",
+    "UiPath.Cognitive.Activities": "[2.2.4]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.8.6]",
+    "UiPath.GSuite.Activities": "[1.8.0]",
+    "UiPath.Mail.Activities": "[1.3.0]",
+    "UiPath.System.Activities": "[20.10.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.9]",
+    "UiPath.WebAPI.Activities": "[1.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.5.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "OrchestratorQueueName",
+        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": false
+      }
+    ],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "516922d0-b44c-49ba-91f5-78fcd67f1c18",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}

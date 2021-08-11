@@ -1,0 +1,5 @@
+{
+	"Config" : "1gx6MDg1NGdfWfEq4CiUP6byO7jX_ne_fvoExKL_HlAo", // Gsuite SpreadSheet ID
+	"OAuthClientID" : "1092159304881-t73aaklv9vghtpck87jcabn294catnf5.apps.googleusercontent.com", // RPA03 OAuth ID
+	"OAuthClientSecret" : "MpFSCGLvIH6beMp-cr3X1Hlx"// RPA03 OAuth Secret
+}
